@@ -1,3 +1,4 @@
+import { group } from "console";
 import { iJourney } from "../models/touchpoint";
 
 export class ProccessDataService {
@@ -23,5 +24,23 @@ export class ProccessDataService {
     });
 
     return [first, ...middle, last];
+  }
+
+  private groupTouchpointsBySessionId(touchpoints: iJourney[]): iJourney[] {
+    const grouped: iJourney[] = [];
+    touchpoints.forEach(({ sessionId, ...touchpoint }) => {
+      if (!grouped[sessionId]) grouped[sessionId] = [];
+
+      grouped[sessionId].push(touchpoint);
+    });
+
+    return Object.entries(grouped).map(([sessionId, touchpoints]) => {
+      const ordered = this.orderTouchpointsByCreatedAt(touchpoints);
+      const cleaned = this.removeDuplicateTouchpoints(ordered);
+      return {
+        sessionId,
+        touchpoints: cleaned,
+      };
+    });
   }
 }
