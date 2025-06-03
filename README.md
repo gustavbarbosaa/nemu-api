@@ -53,7 +53,7 @@ Após copiar:
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/gustavbarbosaa/nemu-api.git
-cd seu-repositorio
+cd nemu-api
 ```
 ### 2. Criar o arquivo .env
 ```bash
