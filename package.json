@@ -1,0 +1,23 @@
+{
+  "name": "nemu-api",
+  "version": "1.0.0",
+  "description": "API para teste de vaga de desenvolvedor Full Stack - Nemu",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
