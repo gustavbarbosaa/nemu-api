@@ -52,7 +52,7 @@ Após copiar:
 
 ### 1. Clonar o repositório
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/gustavbarbosaa/nemu-api.git)
+git clone [https://github.com/gustavbarbosaa/nemu-api.git]
 cd seu-repositorio
 ```
 ### 2. Criar o arquivo .env
