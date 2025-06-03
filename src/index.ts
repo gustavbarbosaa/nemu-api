@@ -1,13 +1,12 @@
 import express, { Request, Response } from "express";
 import "dotenv/config";
+import journeyController from "./controllers/journey.controller";
 
 const app = express();
-app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello, World!");
-});
+app.use(express.json());
+app.use(journeyController);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

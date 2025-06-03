@@ -1,10 +1,10 @@
 import { Request, Response, Router } from "express";
-import { SheetsServce } from "../services/sheets.service";
+import { SheetsService } from "../services/sheets.service";
 import { ProccessDataService } from "../services/proccessData.service";
 import { iTouchpoint } from "../models/touchpoint";
 
 const router = Router();
-const sheetsService = new SheetsServce();
+const sheetsService = new SheetsService();
 const processDataService = new ProccessDataService();
 
 router.get("/journeys", async (req: Request, res: Response) => {
