@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "teste-nemu",
+  "private_key_id": "5b2a622c5938d324e3451366b90791c496188d3e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCtqP8C61BxmDjH\nlDCBDikK1x2v/I5d+hBESbuU2QNH2+Pg7d5RzyHzIAPTWhLylbLEf+ylyNwxHSMb\npPobRUuGp9hl+VmQfmlai084jCe/BJMVfBNAIof3qbLpLpoJIJHsMBwoFrJc1LFj\nRKdjj3GDUMd2sBz2vUtI4lZR7gYQRgLCrbFNhY5lVtvG+bSTEi76sVRqgpfOdujR\nKIYBwTzh6dDGvZSpdGb8NGqLTca0Ubijk4qIumEH8FnPkJBwjOwdcY7y+pox0G/L\nlNob11XhZNVAWxr6Xb8bFyF9dJzbISIDorhFouxBCPIUqJYojj+WAhtlPwlADsV4\n/XN2J2F7AgMBAAECggEAEMmSF/bQyJ+4eBfr4G3oAHOZxmtvBR1T+TtPdizMU7lT\n/BMX4hIDQXzKIeJGi/YgrpIsjueDMamUEpYOKhi2xluaCwbhu5rHax37GIej8qPp\n5rJ0gfH/Rte8GIKNbW3H7WxxLFw//cKp1eN1yFATib2DVVviUOUs+UINVM+M/Sw+\nmIwNnSBpdeU9li7rahoFQFZJq+5PmDBVHQdZoZDEI5LZTQLaDWAWcC9WEbbdd4wZ\nb+NRcBr1MQvwmfwo4XqnWvBLCmeKtO6jKQp/VFmRrSnqAV6t2KUcB/jhsdV/HIrn\nXyrrcuDdpvidZOHRVZNJSQFlkVMnVcz/ruXjpmfSoQKBgQDdn5MgaA4nbWGMbbjD\nfeNUPpNTeQvhPeIwKcY17x0d2ssWCVINzhmfNFuYW777sDjqNi69nw5T9g9nus84\nEwJZW2qnB6Nl9Il0dQhDdl1RdSuL/j2CEiqxEKCkAWrK9bUi3wqdCDo4Za157Ol+\nDQpoks3COG3AV12p2zs0TQKH4wKBgQDImNqv/XDi3/s0HBvj3k3w6wJq/iAtga/L\nzmZTsxKpzZe0F3hxABEOZ0DZQVOdT5/B2O4branKJ02hlz5HkfTJU1lyi6FZSb/h\nMYWmc8PbCr+jDCgHAawCjFM9nEo4LnPW3dBiO2A46hvn5Bue04lGEdToYT0DedMt\n8Ff6SwcDiQKBgAx7T0L0+U8ZJvRMvaos7d+xwoRh/dxKqvGBeMtS0zX6O5PbJIbo\ng6LmxP3YtPHh4+K0+H7vdVQfOJDkAYWr9Gbp8iDEGlzEn/UyHiwGf4z152T0BazM\nryDXyeRSvBwAKJp1K1javMSuXU3PnPrfayWmlvYITY4WnYzSbwwsBid3AoGALQfj\nT86dINEXG0OUHzswU/zttgcGQjDyvdW/stpoPiYhABSkvPk+2vTi4eKAWrgdLO79\nxMjfbLoV+0hwerCROwCy+7vMpLahlHQBhLRIK0vmaTu5YJlHe+r0ZMhJAQOsjXeN\n5/9cQmqLiSrz6FukXU5zdRcfE0Ct34ostctR78ECgYBxW+DcrGDz6OJQc+gDJyF0\nKTw2T5GlDNZNRSr6MSMZ1m0EN34lENMVZ/IVO4FZ9JWje4ccsW526SHpWVSIAbjq\nPLICzEm4HpWRwFJUdu0wk9jHhryEBaxQgdcwIv0L5zOlQzBp7Z2+A3xBqzIpsjfV\n4Njjvr/YmznXUz7iORTRzQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "testenemu@teste-nemu.iam.gserviceaccount.com",
+  "client_id": "101153114233097446146",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/testenemu%40teste-nemu.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
