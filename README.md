@@ -37,18 +37,7 @@ O projeto é simples, mas organizado por responsabilidades, respeitando princíp
 └── teste-nemu-5b2a622c5938.json
 ```
 
-> ⚠️ **Nota:** Os arquivos `.env` e `teste-nemu-5b2a622c5938.json` estão ocultos por questões de segurança e não são versionados.
-
 ## 🚀 Como executar o projeto
-
-> ⚠️ **Nota:** Acesse o link abaixo e faça uma cópia da planilha para o seu Google Drive:
-
-📄 [Copiar Planilha](https://docs.google.com/spreadsheets/d/1bFwd2Xav6ultQuAzNYBCK0LTLd7jpKLW13asz1wGaq8/edit?gid=1533670245#gid=1533670245)
-
-Após copiar:
-- Vá em **Compartilhar** e conceda acesso de leitura ao e-mail da **Service Account**.
-- Copie o **ID da planilha** (está na URL, entre `/d/` e `/edit`).
-- Anote o nome da aba que será utilizada.
 
 ### 1. Clonar o repositório
 ```bash
